@@ -496,7 +496,6 @@ static inline float mavlink_msg_gimbal_device_information_get_pitch_min(const ma
 }
 
 /**
-
  * @brief Get field pitch_max from gimbal_device_information message
  *
  * @return [rad] Maximum hardware pitch angle (positive: up, negative: down)

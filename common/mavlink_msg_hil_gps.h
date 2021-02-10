@@ -3,7 +3,7 @@
 
 #define MAVLINK_MSG_ID_HIL_GPS 113
 
-
+MAVPACKED(
 typedef struct __mavlink_hil_gps_t {
  uint64_t time_usec; /*< [us] Timestamp (UNIX Epoch time or time since system boot). The receiving end can infer timestamp format (since 1.1.1970 or since system boot) by checking for the magnitude of the number.*/
  int32_t lat; /*< [degE7] Latitude (WGS84)*/

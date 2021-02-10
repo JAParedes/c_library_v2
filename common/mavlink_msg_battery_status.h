@@ -3,7 +3,7 @@
 
 #define MAVLINK_MSG_ID_BATTERY_STATUS 147
 
-
+MAVPACKED(
 typedef struct __mavlink_battery_status_t {
  int32_t current_consumed; /*< [mAh] Consumed charge, -1: autopilot does not provide consumption estimate*/
  int32_t energy_consumed; /*< [hJ] Consumed energy, -1: autopilot does not provide energy consumption estimate*/
