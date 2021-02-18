@@ -11,7 +11,7 @@
 #endif
 
 #undef MAVLINK_THIS_XML_IDX
-#define MAVLINK_THIS_XML_IDX 1
+#define MAVLINK_THIS_XML_IDX 2
 
 #ifdef __cplusplus
 extern "C" {
